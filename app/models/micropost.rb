@@ -1,3 +1,3 @@
 class Micropost < ApplicationRecord
-	validates :content, lenght: { maximum: 140}
+	validates :content, length: { maximum: 140}
 end
